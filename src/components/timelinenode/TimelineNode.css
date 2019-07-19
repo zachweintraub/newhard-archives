@@ -1,0 +1,13 @@
+img {
+  border-radius: 50%;
+}
+
+.line {
+  border-left: 3px solid white;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.5px;
+  top: 0;
+  z-index: -1;
+}

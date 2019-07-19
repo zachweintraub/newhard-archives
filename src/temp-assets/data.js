@@ -7,7 +7,7 @@ export const data = {
       duration: 80,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -21,7 +21,7 @@ export const data = {
       duration: 94,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -35,7 +35,7 @@ export const data = {
       duration: 80,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -49,7 +49,7 @@ export const data = {
       duration: 68,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -63,7 +63,7 @@ export const data = {
       duration: 80,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -77,7 +77,7 @@ export const data = {
       duration: 20,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -91,7 +91,7 @@ export const data = {
       duration: 70,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -105,7 +105,7 @@ export const data = {
       duration: 30,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -119,7 +119,7 @@ export const data = {
       duration: 19,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -133,7 +133,7 @@ export const data = {
       duration: 25,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/200',
+      thumb: 'https://picsum.photos/50',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
