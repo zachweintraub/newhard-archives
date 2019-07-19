@@ -1,16 +1,16 @@
 import React from 'react';
-import Vimeo from '@vimeo/player';
+import data from '../../temp-assets/data';
 
 const TimeLine = () => {
 
-    let myPlayer = new Vimeo.Player('vimeotest', {id: 131277094, width: 640, loop: false});
-
-    return(
-        <div>
-        <p>here is the main timeline</p>
-        <div id='vimeotest'>{myPlayer}</div>
-        </div>
-    );
+  return(
+    <div>
+      <p>here is the main timeline</p>
+      {Object.keys(data).map((key) => {
+        return <TimelineNode/>
+      })}
+    </div>
+  );
 }
 
 export default TimeLine;

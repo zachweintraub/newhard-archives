@@ -1,4 +1,4 @@
-const data = {
+export const data = {
   timelineNodes: {
     0: {
       title: 'BUMMER SUMMER',
@@ -18,8 +18,8 @@ const data = {
       title: 'THE MEN OF DODGE CITY',
       director: 'Nandan Rao',
       year: 2011,
-      duration: 80,
-      color: 'B&W',
+      duration: 94,
+      color: 'Color',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
       words: 'This is a brief essay about the making of this film.',
@@ -29,10 +29,11 @@ const data = {
     },
 
     2: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
+      title: 'THE INTERNATIONAL SIGN FOR CHOKING',
+      director: 'Zach Weintraub',
+      year: 2012,
       duration: 80,
-      color: 'B&W',
+      color: 'Color',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
       words: 'This is a brief essay about the making of this film.',
@@ -42,10 +43,11 @@ const data = {
     },
 
     3: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
-      duration: 80,
-      color: 'B&W',
+      title: 'HAWAIIAN PUNCH',
+      director: 'Nandan Rao',
+      year: 2012,
+      duration: 68,
+      color: 'Color',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
       words: 'This is a brief essay about the making of this film.',
@@ -55,8 +57,9 @@ const data = {
     },
 
     4: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
+      title: 'YOU MAKE ME FEEL SO YOUNG',
+      director: 'Zach Weintraub',
+      year: 2013,
       duration: 80,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
@@ -68,10 +71,11 @@ const data = {
     },
 
     5: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
-      duration: 80,
-      color: 'B&W',
+      title: 'NWFF COMMISIONED SHORTS',
+      director: 'Nandan Rao & Zach Weintraub',
+      year: 2013,
+      duration: 20,
+      color: 'Color',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
       words: 'This is a brief essay about the making of this film.',
@@ -81,10 +85,11 @@ const data = {
     },
 
     6: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
-      duration: 80,
-      color: 'B&W',
+      title: 'SLACKJAW',
+      director: 'Zach Weintraub',
+      year: 2015,
+      duration: 70,
+      color: 'Color',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
       words: 'This is a brief essay about the making of this film.',
@@ -94,10 +99,11 @@ const data = {
     },
 
     7: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
-      duration: 80,
-      color: 'B&W',
+      title: 'GREEK YOGURT',
+      director: 'Zach Weintraub',
+      year: 2016,
+      duration: 30,
+      color: 'Color',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
       words: 'This is a brief essay about the making of this film.',
@@ -107,9 +113,10 @@ const data = {
     },
 
     8: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
-      duration: 80,
+      title: 'BOB TOLD ME FOUR JOKES',
+      director: 'Zach Weintraub',
+      year: 2017,
+      duration: 19,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
@@ -120,9 +127,10 @@ const data = {
     },
 
     9: {
-      title: 'BUMMER SUMMER',
-      year: 2010,
-      duration: 80,
+      title: 'WELCOME, MARK',
+      director: 'Zach Weintraub',
+      year: 2019,
+      duration: 25,
       color: 'B&W',
       synopsis: 'This is the synopsis for this film.',
       thumb: 'https://picsum.photos/200',
