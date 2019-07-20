@@ -1,6 +1,18 @@
 .nodes {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 95vh;
+  text-align: center;
+}
+
+.line {
+  border-left: 1px solid white;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -0.7px;
+  top: 0;
+  z-index: -1;
 }

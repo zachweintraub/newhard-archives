@@ -16,7 +16,7 @@ Navigating to various films populates a view with the film itself as well as a n
 
 * Node.js
 * React.js
-* Redux? (tbd)
+* Redux
 * Google Firebase
 
 #### If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
@@ -32,4 +32,11 @@ Navigating to various films populates a view with the film itself as well as a n
 
 * Stripe SDK (to manage payments)
 * JSON Web Tokens for authentication
-* A dedicated hosting platform (e.g. AWS, Azure, etc.)
+* A dedicated hosting platform
+
+##### State Slices Needed:
+* currentPreviewing
+* currentViewing
+* currentTab
+* navHistory?
+* more to come...

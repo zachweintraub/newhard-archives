@@ -1,0 +1,17 @@
+.previewDataBox {
+  background-color: white;
+  color: black;
+  position: fixed;
+  transform: translateX(50px);
+  padding: 5px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.previewTitle {
+  font-weight: bold;
+}
+
+.previewDetails {
+  font-style: italic;
+}

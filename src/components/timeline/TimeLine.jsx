@@ -5,24 +5,15 @@ import './Timeline.css';
 
 const TimeLine = () => {
 
-  const nodeHeight = `${window.innerHeight / Object.keys(data.timelineNodes).length}px`;
-
-  console.log(nodeHeight);
-
-  const nodeStyle = {
-    height: nodeHeight,
-    position: 'fixed'
-  }
-
   return(
     <div className='nodes'>
+      <div className='line'></div>
       {
         Object.keys(data.timelineNodes).map((key) => {
           return(
             <div key={key}>
               <TimelineNode
-                thisNode={data.timelineNodes[key]}
-                style={nodeStyle}
+                thisFilm={data.timelineNodes[key]}
               />
             </div>
           );

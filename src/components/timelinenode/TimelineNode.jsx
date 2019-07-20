@@ -1,11 +1,13 @@
 import React from 'react';
 import './TimelineNode.css'
+import PreviewData from '../previewdata/PreviewData';
 
 const TimelineNode = (props) => {
   return(
-    <div>
-      <div className='line'></div>
-      <img src={props.thisNode.thumb} alt='node'/>
+    <div className='thisNode'>
+      {/* <PreviewData
+        thisFilm={props.thisFilm}
+      /> */}
     </div>
   );
 }
