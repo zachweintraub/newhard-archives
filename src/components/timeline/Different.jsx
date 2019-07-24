@@ -3,7 +3,7 @@ import { data } from '../../temp-assets/data';
 import TimelineNode from '../timelinenode/TimelineNode';
 import './Timeline.css';
 
-const TimeLine = () => {
+const Timeline = () => {
 
   const [selectedNodeId, selectNodeId] = useState();
 
@@ -33,4 +33,4 @@ const TimeLine = () => {
   );
 }
 
-export default TimeLine;
+export default Timeline;
