@@ -4,7 +4,10 @@ import PreviewData from '../previewdata/PreviewData';
 
 const TimelineNode = (props) => {
   return(
-    <div className='thisNode'>
+    <div
+    className='thisNode'
+    onMouseEnter={props.onMouseEnter}
+    >
       {/* <PreviewData
         thisFilm={props.thisFilm}
       /> */}

@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { data } from '../../temp-assets/data';
 import TimelineNode from '../timelinenode/TimelineNode';
 import './Timeline.css';
 
 const TimeLine = () => {
+
+  const [selectedNodeId, selectNodeId] = useState();
+
+  useEffect(() => {
+    if(selectedNodeId) {
+      document.getElementById(`#${selectedNodeId}`).props.selected = true;
+    }
+  });
 
   return(
     <div className='nodes'>
@@ -13,7 +21,9 @@ const TimeLine = () => {
           return(
             <div key={key}>
               <TimelineNode
+                id={key}
                 thisFilm={data.timelineNodes[key]}
+                onMouseEnter={() => selectNodeId(key)}
               />
             </div>
           );
