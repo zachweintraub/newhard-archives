@@ -1,11 +1,9 @@
 import React from 'react';
-import Timeline from '../timeline/Timeline';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   return(
-    <div>
-      <Timeline/>
-    </div>
+    <Link to='/cinema'>Browse Masterpieces</Link>
   );
 }
 

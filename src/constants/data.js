@@ -1,6 +1,7 @@
 export const data = {
   timelineNodes: {
     0: {
+      id: 0,
       title: 'BUMMER SUMMER',
       director: 'Zach Weintraub',
       year: 2010,
@@ -15,6 +16,7 @@ export const data = {
     },
 
     1: {
+      id: 1,
       title: 'THE MEN OF DODGE CITY',
       director: 'Nandan Rao',
       year: 2011,
@@ -29,6 +31,7 @@ export const data = {
     },
 
     2: {
+      id: 2,
       title: 'THE INTERNATIONAL SIGN FOR CHOKING',
       director: 'Zach Weintraub',
       year: 2012,
@@ -43,6 +46,7 @@ export const data = {
     },
 
     3: {
+      id: 3,
       title: 'HAWAIIAN PUNCH',
       director: 'Nandan Rao',
       year: 2012,
@@ -57,6 +61,7 @@ export const data = {
     },
 
     4: {
+      id: 4,
       title: 'YOU MAKE ME FEEL SO YOUNG',
       director: 'Zach Weintraub',
       year: 2013,
@@ -71,13 +76,14 @@ export const data = {
     },
 
     5: {
+      id: 5,
       title: 'NWFF COMMISIONED SHORTS',
       director: 'Nandan Rao & Zach Weintraub',
       year: 2013,
       duration: 20,
       color: 'Color',
       synopsis: 'This is the synopsis for this film.',
-      thumb: 'https://picsum.photos/50',
+      thumb: 'https://www.dropbox.com/s/maw6376h7p7yuzl/NWFF_THUMB.webp?raw=1',
       words: 'This is a brief essay about the making of this film.',
       extras: {
         placeholder: 'There are currently no extra features available.'
@@ -85,6 +91,7 @@ export const data = {
     },
 
     6: {
+      id: 6,
       title: 'SLACKJAW',
       director: 'Zach Weintraub',
       year: 2015,
@@ -99,6 +106,7 @@ export const data = {
     },
 
     7: {
+      id: 7,
       title: 'GREEK YOGURT',
       director: 'Zach Weintraub',
       year: 2016,
@@ -113,6 +121,7 @@ export const data = {
     },
 
     8: {
+      id: 8,
       title: 'BOB TOLD ME FOUR JOKES',
       director: 'Zach Weintraub',
       year: 2017,
@@ -127,6 +136,7 @@ export const data = {
     },
 
     9: {
+      id: 9,
       title: 'WELCOME, MARK',
       director: 'Zach Weintraub',
       year: 2019,
