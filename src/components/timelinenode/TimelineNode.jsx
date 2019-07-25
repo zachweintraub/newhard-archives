@@ -5,10 +5,7 @@ import PreviewData from '../previewdata/PreviewData';
 const TimelineNode = (props) => {
   return(
     props.isSelected ?
-    <div
-      style={{backgroundImage: props.thisFilm.thumb, backgroundSize: 50}}
-      className='selectedNode'
-    >
+    <div className='selectedNode'>
       <img 
         className='thumb'
         src={props.thisFilm.thumb} alt="thumbnail"

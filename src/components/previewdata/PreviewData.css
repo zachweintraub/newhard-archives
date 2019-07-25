@@ -1,10 +1,23 @@
 .previewDataBox  {
+  position: fixed;
   background-color: white;
   color: black;
-  position: fixed;
+  position: absolute;
   padding: 5px;
   border-radius: 15px;
   text-align: left;
+  width: 200px;
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .right {
