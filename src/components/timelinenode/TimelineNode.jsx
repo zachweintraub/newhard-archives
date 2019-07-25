@@ -4,14 +4,34 @@ import PreviewData from '../previewdata/PreviewData';
 
 const TimelineNode = (props) => {
   return(
+    props.isSelected ?
     <div
-    className='thisNode'
-    onMouseEnter={props.onMouseEnter}
+      style={{backgroundImage: props.thisFilm.thumb, backgroundSize: 50}}
+      className='selectedNode'
     >
-      {/* <PreviewData
-        thisFilm={props.thisFilm}
-      /> */}
-    </div>
+      <img 
+        className='thumb'
+        src={props.thisFilm.thumb} alt="thumbnail"
+      />
+      {
+        props.position % 2 === 0 &&
+        <PreviewData
+          thisFilm={props.thisFilm}
+          className='left'  
+        />
+      }
+      {
+        props.position % 2 === 1 &&
+        <PreviewData
+          thisFilm={props.thisFilm}
+          className='right'  
+        />
+      }
+    </div> :
+    <div
+      className='unselectedNode'
+      onMouseEnter={props.onMouseEnter}
+    ></div>
   );
 }
 

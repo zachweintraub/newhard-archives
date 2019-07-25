@@ -6,26 +6,27 @@ import './Timeline.css';
 const Timeline = () => {
 
   const [selectedNodeId, selectNodeId] = useState();
-
-  useEffect(() => {
-    if(selectedNodeId) {
-      document.getElementById(`#${selectedNodeId}`).props.selected = true;
-    }
-  });
+  let index = 0;
 
   return(
     <div className='nodes'>
       <div className='line'></div>
       {
         Object.keys(data.timelineNodes).map((key) => {
+          new Image().src = data.timelineNodes[key].thumb;
+          index = index + 1;
           return(
-            <div key={key}>
-              <TimelineNode
-                id={key}
-                thisFilm={data.timelineNodes[key]}
-                onMouseEnter={() => selectNodeId(key)}
-              />
-            </div>
+            selectedNodeId === key ?
+            <TimelineNode
+              key={key}
+              isSelected={true}
+              thisFilm={data.timelineNodes[key]}
+              position={index}
+            /> :
+            <TimelineNode
+              key={key}
+              onMouseEnter={() => selectNodeId(key)}
+            />
           );
         })
       }
@@ -34,3 +35,14 @@ const Timeline = () => {
 }
 
 export default Timeline;
+
+
+
+// <div key={key}>
+//               <TimelineNode
+//                 id={key}
+//                 thisFilm={data.timelineNodes[key]}
+//                 onMouseEnter={() => selectNodeId(key)}
+                
+//               />
+//             </div>

@@ -3,7 +3,7 @@ import './PreviewData.css';
 
 const PreviewData = (props) => {
   return(
-    <div className='previewDataBox'>
+    <div className={`previewDataBox ${props.className}`}>
       <p className='previewTitle'>{props.thisFilm.title}</p>
       <p className='previewDetails'>
         {props.thisFilm.year}||

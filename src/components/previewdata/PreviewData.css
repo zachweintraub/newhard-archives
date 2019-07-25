@@ -1,15 +1,23 @@
-.previewDataBox {
+.previewDataBox  {
   background-color: white;
   color: black;
   position: fixed;
-  transform: translateX(50px);
   padding: 5px;
   border-radius: 15px;
   text-align: left;
 }
 
+.right {
+  transform: translateX(70px) translateY(-66px);
+}
+
+.left {
+  transform: translateX(-220px) translateY(-66px);
+}
+
 .previewTitle {
   font-weight: bold;
+  cursor: pointer;
 }
 
 .previewDetails {
