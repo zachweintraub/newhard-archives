@@ -2,6 +2,7 @@ export const data = {
   timelineNodes: {
     0: {
       id: 0,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'BUMMER SUMMER',
       director: 'Zach Weintraub',
       year: 2010,
@@ -17,6 +18,7 @@ export const data = {
 
     1: {
       id: 1,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'THE MEN OF DODGE CITY',
       director: 'Nandan Rao',
       year: 2011,
@@ -32,6 +34,7 @@ export const data = {
 
     2: {
       id: 2,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'THE INTERNATIONAL SIGN FOR CHOKING',
       director: 'Zach Weintraub',
       year: 2012,
@@ -47,6 +50,7 @@ export const data = {
 
     3: {
       id: 3,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'HAWAIIAN PUNCH',
       director: 'Nandan Rao',
       year: 2012,
@@ -62,6 +66,7 @@ export const data = {
 
     4: {
       id: 4,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'YOU MAKE ME FEEL SO YOUNG',
       director: 'Zach Weintraub',
       year: 2013,
@@ -77,6 +82,7 @@ export const data = {
 
     5: {
       id: 5,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'NWFF COMMISIONED SHORTS',
       director: 'Nandan Rao & Zach Weintraub',
       year: 2013,
@@ -92,6 +98,7 @@ export const data = {
 
     6: {
       id: 6,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'SLACKJAW',
       director: 'Zach Weintraub',
       year: 2015,
@@ -107,6 +114,7 @@ export const data = {
 
     7: {
       id: 7,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'GREEK YOGURT',
       director: 'Zach Weintraub',
       year: 2016,
@@ -122,6 +130,7 @@ export const data = {
 
     8: {
       id: 8,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'BOB TOLD ME FOUR JOKES',
       director: 'Zach Weintraub',
       year: 2017,
@@ -137,6 +146,7 @@ export const data = {
 
     9: {
       id: 9,
+      dummysource: 'https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1',
       title: 'WELCOME, MARK',
       director: 'Zach Weintraub',
       year: 2019,
