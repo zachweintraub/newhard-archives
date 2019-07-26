@@ -8,7 +8,7 @@ const TimelineNode = (props) => {
     <div className='selectedNode'>
       <img 
         className='thumb'
-        src={props.thisFilm.thumb} alt="thumbnail"
+        src={props.thisFilm.thumbs.node} alt="thumbnail"
       />
       {
         props.position % 2 === 0 &&

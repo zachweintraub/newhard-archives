@@ -16,7 +16,7 @@ const Timeline = () => {
       <div className='line'></div>
       {
         Object.keys(data.timelineNodes).map((key) => {
-          new Image().src = data.timelineNodes[key].thumb;
+          new Image().src = data.timelineNodes[key].thumbs.node;
           index += 1;
           return(
             selectedNodeId === key ?
