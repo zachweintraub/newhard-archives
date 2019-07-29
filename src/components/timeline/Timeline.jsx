@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { data } from '../../constants/data';
+// import { data } from '../../constants/data';
 import TimelineNode from '../timelinenode/TimelineNode';
 import './Timeline.css';
+import c from '../../constants';
 
 const Timeline = () => {
 
@@ -15,23 +16,23 @@ const Timeline = () => {
     >
       <div className='line'></div>
       {
-        Object.keys(data.timelineNodes).map((key) => {
-          new Image().src = data.timelineNodes[key].thumbs.node;
+        c.timelineNodes.map((node) => {
+          new Image().src = node.thumbs.node;
           index += 1;
           return(
-            selectedNodeId === key ?
+            selectedNodeId === node.id ?
             <TimelineNode
-            key={key}
+            key={node.id}
             isSelected={true}
-            thisFilm={data.timelineNodes[key]}
+            thisFilm={node}
             position={index}
             /> :
             <TimelineNode
-            key={key}
-            onMouseEnter={() => selectNodeId(key)}
+            key={node.id}
+            onMouseEnter={() => selectNodeId(node.id)}
             />
           );
-          })
+        })
       }
     </div>
   );

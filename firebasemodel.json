@@ -9,7 +9,10 @@
       "duration": 80,
       "color": "B&W",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/3g8p1j2ozv7oin6/BS_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FTIMELINE_NODE%2FBS_THUMB.webp?alt=media&token=df6e7d56-1e91-4472-92d1-1b5daf1c7189",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FBS_PLAYER_THUMB.webp?alt=media&token=398bda63-2ae8-485e-ac9c-410db1856d1f"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -25,7 +28,9 @@
       "duration": 94,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/d3t2fau6wkvw2x2/MODC_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/d3t2fau6wkvw2x2/MODC_THUMB.webp?raw=1"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -41,7 +46,10 @@
       "duration": 80,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/dco681607ybzxg6/TISFC_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/dco681607ybzxg6/TISFC_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FTISFC_PLAYER_THUMB.webp?alt=media&token=78a887f5-c377-4d86-bdc2-75c8bdb103d4"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -57,7 +65,9 @@
       "duration": 68,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/arzrwkcxxohbjup/HP_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/arzrwkcxxohbjup/HP_THUMB.webp?raw=1"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -73,7 +83,10 @@
       "duration": 80,
       "color": "B&W",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/behfxwr89zb0fun/YMMFSY_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/behfxwr89zb0fun/YMMFSY_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FYMMFSY_PLAYER_THUMB.webp?alt=media&token=447112db-a380-4a69-83e6-86841025963a"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -89,7 +102,9 @@
       "duration": 20,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/maw6376h7p7yuzl/NWFF_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/maw6376h7p7yuzl/NWFF_THUMB.webp?raw=1"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -105,7 +120,10 @@
       "duration": 70,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/tu2gdnu0t1vsby9/SJ_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/tu2gdnu0t1vsby9/SJ_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FSJ_PLAYER_THUMB.webp?alt=media&token=063d611d-b4f4-4282-9d19-fe5c78bab4b1"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -121,7 +139,10 @@
       "duration": 30,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/ys9beytvlkhy8h6/GY_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/ys9beytvlkhy8h6/GY_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FGY_PLAYER_THUMB.webp?alt=media&token=ff334721-4d34-4e19-ad67-a114ef01ad40"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -137,7 +158,9 @@
       "duration": 19,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/v7jsvci3cnn6bi8/BTMFJ_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/v7jsvci3cnn6bi8/BTMFJ_THUMB.webp?raw=1"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
@@ -153,7 +176,10 @@
       "duration": 25,
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
-      "thumb": "https://www.dropbox.com/s/mgdwq0esfi893w5/WM_THUMB.webp?raw=1",
+      "thumbs": {
+        "node": "https://www.dropbox.com/s/mgdwq0esfi893w5/WM_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FWM_PLAYER_THUMB.webp?alt=media&token=8653f20e-9144-4dfa-99d7-04d4294f1242"
+      },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."

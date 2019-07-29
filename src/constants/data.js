@@ -85,7 +85,7 @@ export const data = {
       synopsis: 'This is the synopsis for this film.',
       thumbs: {
         node: 'https://www.dropbox.com/s/behfxwr89zb0fun/YMMFSY_THUMB.webp?raw=1',
-        player: 'https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FTISFC_PLAYER_THUMB.webp?alt=media&token=78a887f5-c377-4d86-bdc2-75c8bdb103d4'
+        player: 'https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FYMMFSY_PLAYER_THUMB.webp?alt=media&token=447112db-a380-4a69-83e6-86841025963a'
       },
       words: 'This is a brief essay about the making of this film.',
       extras: {
