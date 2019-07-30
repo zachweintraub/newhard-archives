@@ -2,6 +2,7 @@ import React, { useState, createContext } from 'react';
 import './App.css';
 import LandingPage from '../landingpage/LandingPage';
 import Timeline from '../timeline/Timeline';
+import MainNav from '../mainnav/MainNav';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ShowContent from '../showcontent/ShowContent';
 import firebaseConfig from '../../constants/firebaseconfig';
@@ -42,6 +43,7 @@ const App = () => {
   } else return (
     <AppContext.Provider value={data}>
       <BrowserRouter>
+        <MainNav/>
         <Switch>
           <Route exact path='/' component={LandingPage} />
           <Route exact path='/cinema' component={Timeline} />

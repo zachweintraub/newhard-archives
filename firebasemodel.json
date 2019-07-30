@@ -16,6 +16,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -34,6 +44,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -53,6 +73,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -71,6 +101,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -90,6 +130,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -108,6 +158,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "nandan's film": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "zach's film": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -127,6 +187,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -146,6 +216,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -164,6 +244,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     },
 
@@ -183,6 +273,16 @@
       "words": "This is a brief essay about the making of this film.",
       "extras": {
         "placeholder": "There are currently no extra features available."
+      },
+      "sources": {
+        "full film": {
+          "free": false,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        },
+        "trailer": {
+          "free": true,
+          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+        }
       }
     }
   }

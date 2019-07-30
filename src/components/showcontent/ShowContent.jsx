@@ -23,7 +23,7 @@ const ShowContent = (props) => {
       />
       {
         currentTab === 'movie' &&
-        <MyPlayer source={thisContent}/>
+        <MyPlayer content={thisContent}/>
       }
       {
         currentTab === 'words' &&

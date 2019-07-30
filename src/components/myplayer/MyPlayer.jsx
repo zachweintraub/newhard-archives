@@ -6,8 +6,8 @@ const MyPlayer = (props) => {
 
   return(
     <Player 
-      poster={props.source.thumbs.player}
-      src={props.source.dummysource}
+      poster={props.content.thumbs.player}
+      src={props.content.sources.trailer.uri}
       controls
     />
   );
