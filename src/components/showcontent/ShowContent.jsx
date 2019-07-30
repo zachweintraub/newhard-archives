@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
-import { data } from '../../constants/data';
+import React, { useState, useContext } from 'react';
 import MyPlayer from '../myplayer/MyPlayer';
 import ShowContentNav from '../showcontentnav/ShowContentNav';
 import './ShowContent.css';
+import { AppContext } from '../app/App';
 
 const ShowContent = (props) => {
-  const thisContent = data.timelineNodes[props.match.params.id];
+  const timelineNodes = useContext(AppContext);
+  let thisContent = timelineNodes.filter(node => {
+    return node.id === parseInt(props.match.params.id)
+  })[0];
+
+  console.log(thisContent);
+
   const [currentTab, setCurrentTab] = useState('movie');
 
   return(

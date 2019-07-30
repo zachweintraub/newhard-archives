@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-// import { data } from '../../constants/data';
+import React, { useState, useContext } from 'react';
 import TimelineNode from '../timelinenode/TimelineNode';
 import './Timeline.css';
-import c from '../../constants';
+import { AppContext } from '../app/App';
 
 const Timeline = () => {
 
   const [selectedNodeId, selectNodeId] = useState();
+  const timelineNodes = useContext(AppContext);
   let index = 0;
 
   return(
@@ -16,7 +16,7 @@ const Timeline = () => {
     >
       <div className='line'></div>
       {
-        c.timelineNodes.map((node) => {
+        timelineNodes.map((node) => {
           new Image().src = node.thumbs.node;
           index += 1;
           return(

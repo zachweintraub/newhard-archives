@@ -1,20 +1,30 @@
-import firebaseConfig from './firebaseconfig';
-import Firebase from 'firebase';
+// import { createContext } from 'react';
+// import firebaseConfig from './firebaseconfig';
+// import Firebase from 'firebase';
 
-Firebase.initializeApp(firebaseConfig);
+// Firebase.initializeApp(firebaseConfig);
 
-function fetchData() {
-  let data = [];
+// export const dbData = Firebase.database().ref('timelineNodes').once('value');
 
-  Firebase.database().ref('timelineNodes').once('value').then(snapshot => {
-    snapshot.forEach(child => {
-      data.push(child.val());
-    });
-  });
-  return data;
-}
+// export async function fetchData() {
 
-export default {
-firebaseConfig: firebaseConfig,
-timelineNodes: fetchData()
-}
+//   console.log('begin fetching');
+
+//   let data = [];
+
+//   await Firebase.database().ref('timelineNodes').once('value').then(snapshot => {
+//     snapshot.forEach(child => {
+//       data.push(child.val());
+//     });
+//   });
+  
+//   console.log(data.length);
+
+//   return data;
+// }
+
+// export const AppContext = createContext();
+
+// export default {
+//   timelineNodes: fetchData()
+// }
