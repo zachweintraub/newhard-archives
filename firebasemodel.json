@@ -52,7 +52,7 @@
         },
         "trailer": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/8irk9hem7wlq3iq/MODC_TRAILER.mp4?raw=1"
         }
       }
     },
@@ -81,7 +81,7 @@
         },
         "trailer": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/0oolzd2uautvn16/TISFC_TRAILER.mov?raw=1"
         }
       }
     },
@@ -109,7 +109,7 @@
         },
         "trailer": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/dlmf36le5d2tsq2/HP_TRAILER.mp4?raw=1"
         }
       }
     },
@@ -138,7 +138,7 @@
         },
         "trailer": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/atvjtlbo4dtngnw/YMMFSY_TRAILER.mp4?raw=1"
         }
       }
     },
@@ -153,7 +153,8 @@
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
       "thumbs": {
-        "node": "https://www.dropbox.com/s/maw6376h7p7yuzl/NWFF_THUMB.webp?raw=1"
+        "node": "https://www.dropbox.com/s/maw6376h7p7yuzl/NWFF_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FNWFF_PLAYER_THUMB.webp?alt=media&token=64c45d47-64c5-4505-9b03-c96b88551450"
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
@@ -195,7 +196,7 @@
         },
         "trailer": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/qirwlajmp645p85/SJ_TRAILER.mp4?raw=1"
         }
       }
     },
