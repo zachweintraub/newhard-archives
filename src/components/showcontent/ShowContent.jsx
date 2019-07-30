@@ -5,12 +5,12 @@ import './ShowContent.css';
 import { AppContext } from '../app/App';
 
 const ShowContent = (props) => {
+
   const timelineNodes = useContext(AppContext);
+  
   let thisContent = timelineNodes.filter(node => {
     return node.id === parseInt(props.match.params.id)
   })[0];
-
-  console.log(thisContent);
 
   const [currentTab, setCurrentTab] = useState('movie');
 
@@ -19,6 +19,7 @@ const ShowContent = (props) => {
       <p className='show-content-title'>{thisContent.title}</p>
       <ShowContentNav
         onClick={(tab) => setCurrentTab(tab)}
+        currentTab={currentTab}
       />
       {
         currentTab === 'movie' &&

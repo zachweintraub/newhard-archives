@@ -2,11 +2,44 @@ import React from 'react';
 import './ShowContentNav.css';
 
 const ShowContentNav = (props) => {
+
+  let movieClass;
+  let wordsClass;
+  let extrasClass;
+
+  switch(props.currentTab) {
+    case 'movie':
+      movieClass = 'current';
+      break;
+    case 'words':
+      wordsClass = 'current';
+      break;
+    case 'extras':
+      extrasClass = 'current';
+      break;
+    default:
+      break;
+  }
+
+  
+
   return(
-    <div className='nav-buttons'>
-      <p onClick={() => props.onClick('movie')}>Movie</p>
-      <p onClick={() => props.onClick('words')}>Words</p>
-      <p onClick={() => props.onClick('extras')}>Extras</p>
+    <div className='content-nav-tabs'>
+      <div className='content-nav-tab'>
+        <p className={['content-nav-button', movieClass].join(' ')}
+          onClick={() => props.onClick('movie')}
+        >Movie</p>
+      </div>
+      <div className='content-nav-tab'>
+        <p className={['content-nav-button', wordsClass].join(' ')}
+          onClick={() => props.onClick('words')}
+        >Words</p>
+      </div>
+      <div className='content-nav-tab'>
+        <p className={['content-nav-button', extrasClass].join(' ')}
+          onClick={() => props.onClick('extras')}>
+        Extras</p>
+      </div>
     </div>
   );
 }

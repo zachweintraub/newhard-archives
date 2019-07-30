@@ -1,8 +1,26 @@
-.nav-buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.content-nav-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
-.nav-buttons p {
+.content-nav-tab {
+  justify-self: center;
+  text-justify: distribute;
+}
+
+.content-nav-button {
+  opacity: 0.5;
   cursor: pointer;
+  width: 70px;
+  transition: 0.3s;
+}
+
+.content-nav-button:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.current {
+  text-decoration: underline;
+  opacity: 1;
 }
