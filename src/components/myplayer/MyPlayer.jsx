@@ -1,36 +1,51 @@
 import React, { useState } from 'react';
-import { Player } from 'video-react';
+import { Player, BigPlayButton } from 'video-react';
 import '../../../node_modules/video-react/dist/video-react.css';
 import '../myplayer/MyPlayer.css';
 
 const MyPlayer = (props) => {
 
-  console.log(props);
+  const sources = props.content.sources;
 
-  const defaultSource = () => {
-    let sources = props.content.sources;
-    
-    if(sources.trailer) {
-      return sources.trailer;
+  let defaultSource = () => {
+    if(Object.keys(sources).includes('trailer')) {
+      return 'trailer';
     } else {
-      let outputKey = Object.keys(sources).filter(source => {
-        return sources[source].free;
+      return Object.keys(sources).filter((key) => {
+        return sources[key].free;
       })[0];
-      return sources[outputKey];
     }
   }
 
-  const [source, setSource] = useState(defaultSource().uri);
 
-  console.log(source);
+  //state determines which source is passed to player
+  const [source, setSource] = useState(defaultSource);
 
   return(
     <div className='player-wrapper'>
-      <Player 
+      <Player
+        className='my-player'
         poster={props.content.thumbs.player}
-        src={source}
+        src={sources[source].uri}
         controls
-      />
+        // autoPlay={source !== defaultSource()}
+      >
+        <BigPlayButton className='big-play-button-hide'/>
+      </Player>
+      <p>Currently viewing: {source}</p>
+      <p>Click to view: {Object.keys(sources).map(key => {
+        if(key !== source) {
+          return (
+            <span
+              key={key}
+              className="source-link"
+              onClick={() => setSource(key)}
+            >
+              {key}
+            </span>
+          );
+        } else return null;
+      })}</p>
     </div>
   );
 }

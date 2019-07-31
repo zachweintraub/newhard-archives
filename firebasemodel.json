@@ -24,7 +24,7 @@
         },
         "trailer": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/4owav33lakmlst5/BS_TRAILER.mov?raw=1"
         }
       }
     },
@@ -39,7 +39,8 @@
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
       "thumbs": {
-        "node": "https://www.dropbox.com/s/d3t2fau6wkvw2x2/MODC_THUMB.webp?raw=1"
+        "node": "https://www.dropbox.com/s/d3t2fau6wkvw2x2/MODC_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FMODC_PLAYER_THUMB.webp?alt=media&token=5626fb80-640f-4441-9c70-39de0a1edb3c"
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
@@ -96,7 +97,8 @@
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
       "thumbs": {
-        "node": "https://www.dropbox.com/s/arzrwkcxxohbjup/HP_THUMB.webp?raw=1"
+        "node": "https://www.dropbox.com/s/arzrwkcxxohbjup/HP_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FHP_PLAYER_THUMB.webp?alt=media&token=0afaac98-4340-408c-83d8-0f349ceb766a"
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
@@ -163,7 +165,7 @@
       "sources": {
         "nandan's film": {
           "free": true,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/nbi6som093bdl4v/NWFF_RAO.mp4?raw=1"
         },
         "zach's film": {
           "free": true,
@@ -240,7 +242,8 @@
       "color": "Color",
       "synopsis": "This is the synopsis for this film.",
       "thumbs": {
-        "node": "https://www.dropbox.com/s/v7jsvci3cnn6bi8/BTMFJ_THUMB.webp?raw=1"
+        "node": "https://www.dropbox.com/s/v7jsvci3cnn6bi8/BTMFJ_THUMB.webp?raw=1",
+        "player": "https://firebasestorage.googleapis.com/v0/b/newhard-archives.appspot.com/o/THUMBS%2FPLAYER%2FBTMFJ_PLAYER_THUMB.webp?alt=media&token=4b1d4a73-3323-46e8-b72c-c594168a2a72"
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
@@ -249,7 +252,7 @@
       "sources": {
         "full film": {
           "free": false,
-          "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
+          "uri": "https://www.dropbox.com/s/ig6gxrhfs5aaasz/BTMFJ_FULL.mp4?raw=1"
         },
         "trailer": {
           "free": true,

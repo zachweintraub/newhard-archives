@@ -20,25 +20,23 @@ const ShowContentNav = (props) => {
     default:
       break;
   }
-
   
-
   return(
     <div className='content-nav-tabs'>
       <div className='content-nav-tab'>
         <p className={['content-nav-button', movieClass].join(' ')}
           onClick={() => props.onClick('movie')}
-        >Movie</p>
+        >MOVIE</p>
       </div>
       <div className='content-nav-tab'>
         <p className={['content-nav-button', wordsClass].join(' ')}
           onClick={() => props.onClick('words')}
-        >Words</p>
+        >WORDS</p>
       </div>
       <div className='content-nav-tab'>
         <p className={['content-nav-button', extrasClass].join(' ')}
           onClick={() => props.onClick('extras')}>
-        Extras</p>
+        EXTRAS</p>
       </div>
     </div>
   );

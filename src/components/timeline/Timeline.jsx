@@ -5,18 +5,24 @@ import { AppContext } from '../app/App';
 
 const Timeline = () => {
 
+  //state that determines which timeline node is displayed
   const [selectedNodeId, selectNodeId] = useState();
+
+  //gives this component access to the dbdata fetched by app component
   const timelineNodes = useContext(AppContext);
+
+  //tracks nodes as odd or even to determine left/right display
   let index = 0;
 
   return(
     <div
       className='nodes'
-      onClick={() => selectNodeId(null)}
+      // onClick={() => selectNodeId(null)}
     >
       <div className='line'></div>
       {
         timelineNodes.map((node) => {
+          //preload images
           new Image().src = node.thumbs.node;
           index += 1;
           return(
@@ -29,7 +35,7 @@ const Timeline = () => {
             /> :
             <TimelineNode
             key={node.id}
-            onMouseEnter={() => selectNodeId(node.id)}
+            onSelectNode={() => selectNodeId(node.id)}
             />
           );
         })

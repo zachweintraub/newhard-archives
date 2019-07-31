@@ -4,6 +4,7 @@ import ShowContentNav from '../showcontentnav/ShowContentNav';
 import './ShowContent.css';
 import { AppContext } from '../app/App';
 
+//this is the "show" page for an individual film
 const ShowContent = (props) => {
 
   const timelineNodes = useContext(AppContext);
@@ -12,6 +13,7 @@ const ShowContent = (props) => {
     return node.id === parseInt(props.match.params.id)
   })[0];
 
+  //determines which "tab" the user is viewing
   const [currentTab, setCurrentTab] = useState('movie');
 
   return(

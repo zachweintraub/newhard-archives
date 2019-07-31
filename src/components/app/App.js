@@ -10,14 +10,18 @@ import Firebase from 'firebase';
 
 Firebase.initializeApp(firebaseConfig);
 
+//used to pass db data throughout app
 export const AppContext = createContext();
 
 const App = () => {
   
+  //holds app loading state
   const [isLoading, setLoading] = useState(true);
+  
+  //holds db data
   const [data, setData] = useState([]);
   
-  
+  //fetches db data and sets it as app state/context
   async function fetchData() {
 
     if(data.length < 1) {
