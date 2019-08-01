@@ -1,7 +1,14 @@
 .show-content-title {
   font-size: 32px;
+  display: inline;
 }
 
 MyPlayer {
   width: 80%;
+}
+
+.icon-link {
+  display: inline;
+  padding: 0px 25px 0px 25px;
+  color: white;
 }

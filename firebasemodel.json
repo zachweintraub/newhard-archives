@@ -18,11 +18,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/4owav33lakmlst5/BS_TRAILER.mov?raw=1"
         }
@@ -47,11 +51,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/8irk9hem7wlq3iq/MODC_TRAILER.mp4?raw=1"
         }
@@ -76,11 +84,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/0oolzd2uautvn16/TISFC_TRAILER.mov?raw=1"
         }
@@ -105,11 +117,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/dlmf36le5d2tsq2/HP_TRAILER.mp4?raw=1"
         }
@@ -134,11 +150,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/atvjtlbo4dtngnw/YMMFSY_TRAILER.mp4?raw=1"
         }
@@ -163,11 +183,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "nandan's film": {
+        "0": {
+          "name": "nandan's film",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/nbi6som093bdl4v/NWFF_RAO.mp4?raw=1"
         },
-        "zach's film": {
+        "1": {
+          "name": "zach's film",
+          "default": false,
           "free": true,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         }
@@ -192,11 +216,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/qirwlajmp645p85/SJ_TRAILER.mp4?raw=1"
         }
@@ -221,11 +249,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         }
@@ -250,11 +282,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/ig6gxrhfs5aaasz/BTMFJ_FULL.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         }
@@ -279,11 +315,15 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "full film": {
+        "0": {
+          "name": "full film",
+          "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "trailer": {
+        "1": {
+          "name": "trailer",
+          "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         }

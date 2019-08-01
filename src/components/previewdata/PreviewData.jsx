@@ -12,7 +12,7 @@ const PreviewData = (props) => {
         {props.thisFilm.duration} min.||
         {props.thisFilm.color}
       </p>
-      {props.thisFilm.sources.trailer && <PreviewPlayer thisFilm={props.thisFilm}/>}
+      <PreviewPlayer thisFilm={props.thisFilm}/>
     </div>
   );
 }

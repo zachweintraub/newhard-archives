@@ -8,18 +8,17 @@ const MyPlayer = (props) => {
   const sources = props.content.sources;
 
   let defaultSource = () => {
-    if(Object.keys(sources).includes('trailer')) {
-      return 'trailer';
-    } else {
-      return Object.keys(sources).filter((key) => {
-        return sources[key].free;
-      })[0];
-    }
+    let output;
+    Object.keys(sources).forEach(source => {
+      if(sources[source].default) {
+        output = source;
+      }
+    });
+    return output;
   }
 
-
   //state determines which source is passed to player
-  const [source, setSource] = useState(defaultSource);
+  const [source, setSource] = useState(defaultSource());
 
   return(
     <div className='player-wrapper'>
@@ -28,11 +27,10 @@ const MyPlayer = (props) => {
         poster={props.content.thumbs.player}
         src={sources[source].uri}
         controls
-        // autoPlay={source !== defaultSource()}
       >
         <BigPlayButton className='big-play-button-hide'/>
       </Player>
-      <p>Currently viewing: {source}</p>
+      <p>Currently viewing: {sources[source].name}</p>
       <p>Click to view: {Object.keys(sources).map(key => {
         if(key !== source) {
           return (
@@ -41,7 +39,7 @@ const MyPlayer = (props) => {
               className="source-link"
               onClick={() => setSource(key)}
             >
-              {key}
+              {sources[key].name}
             </span>
           );
         } else return null;
