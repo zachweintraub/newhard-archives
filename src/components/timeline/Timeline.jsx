@@ -32,6 +32,7 @@ const Timeline = () => {
             isSelected={true}
             thisFilm={node}
             position={index}
+            threshold={timelineNodes.length * 0.75}
             /> :
             <TimelineNode
             key={node.id}

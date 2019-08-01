@@ -3,6 +3,7 @@ import './TimelineNode.css'
 import PreviewData from '../previewdata/PreviewData';
 
 const TimelineNode = (props) => {
+
   return(
     //selected node renders as thumbnail with preview data window
     props.isSelected ?
@@ -12,17 +13,31 @@ const TimelineNode = (props) => {
         src={props.thisFilm.thumbs.node} alt="thumbnail"
       />
       {
-        props.position % 2 === 0 &&
+        props.position % 2 === 0 && props.position <= props.threshold &&
         <PreviewData
           thisFilm={props.thisFilm}
-          className='left'  
+          className='left-top'
         />
       }
       {
-        props.position % 2 === 1 &&
+        props.position % 2 === 0 && props.position > props.threshold &&
         <PreviewData
           thisFilm={props.thisFilm}
-          className='right'  
+          className='left-bottom'
+        />
+      }
+      {
+        props.position % 2 === 1 && props.position <= props.threshold &&
+        <PreviewData
+          thisFilm={props.thisFilm}
+          className='right-top'
+        />
+      }
+      {
+        props.position % 2 === 1 && props.position > props.threshold &&
+        <PreviewData
+          thisFilm={props.thisFilm}
+          className='right-bottom'
         />
       }
     </div> :
