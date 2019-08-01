@@ -6,8 +6,8 @@ const MainNav = (props) => {
 
   return (
     <div>
-      <p className='main-nav-button' onClick={() => props.history.push('/')}>Home</p>
-      <p className='main-nav-button' onClick={() => props.history.goBack()}>Back</p>
+      <p className='main-nav-button' onClick={() => props.history.push('/')}><span className='main-nav-button-text'>Home</span></p>
+      <p className='main-nav-button' onClick={() => props.history.goBack()}><span className='main-nav-button-text'>Back</span></p>
     </div>
   );
 }

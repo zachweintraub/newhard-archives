@@ -17,7 +17,7 @@ const Timeline = () => {
   return(
     <div
       className='nodes'
-      // onClick={() => selectNodeId(null)}
+      onClick={() => selectNodeId(null)}
     >
       <div className='line'></div>
       {

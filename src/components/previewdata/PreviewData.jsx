@@ -1,4 +1,5 @@
 import React from 'react';
+import PreviewPlayer from '../previewplayer/PreviewPlayer';
 import './PreviewData.css';
 import { Link } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ const PreviewData = (props) => {
         {props.thisFilm.duration} min.||
         {props.thisFilm.color}
       </p>
+      {props.thisFilm.sources.trailer && <PreviewPlayer thisFilm={props.thisFilm}/>}
     </div>
   );
 }

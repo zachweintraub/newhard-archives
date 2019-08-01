@@ -47,7 +47,6 @@ const App = () => {
   } else return (
     <AppContext.Provider value={data}>
       <BrowserRouter>
-        <MainNav/>
         <Switch>
           <Route exact path='/' component={LandingPage} />
           <Route exact path='/cinema' component={Timeline} />
