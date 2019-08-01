@@ -14,6 +14,7 @@ const MyPlayer = (props) => {
         output = source;
       }
     });
+    console.log(output);
     return output;
   }
 
@@ -22,6 +23,9 @@ const MyPlayer = (props) => {
 
   return(
     <div className='player-wrapper'>
+      <div className='currently-viewing'>
+        <p className='currently-viewing-text'>Currently viewing: {sources[source].name}</p>
+      </div>
       <Player
         className='my-player'
         poster={props.content.thumbs.player}
@@ -30,7 +34,6 @@ const MyPlayer = (props) => {
       >
         <BigPlayButton className='big-play-button-hide'/>
       </Player>
-      <p>Currently viewing: {sources[source].name}</p>
       <p>Click to view: {Object.keys(sources).map(key => {
         if(key !== source) {
           return (
