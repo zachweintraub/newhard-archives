@@ -18,13 +18,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2010_BS_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2010_BS_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -51,13 +51,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2011_MODC_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2011_MODC_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -84,13 +84,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2012_TISFC_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2012_TISFC_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -117,13 +117,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2012_HP_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2012_HP_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -150,13 +150,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2013_YMMFSY_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2013_YMMFSY_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -183,13 +183,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2013_NWFF_RAO": {
           "name": "nandan's film",
           "default": true,
           "free": true,
           "uri": "https://www.dropbox.com/s/nbi6som093bdl4v/NWFF_RAO.mp4?raw=1"
         },
-        "1": {
+        "2013_NWFF_WEINTRAUB": {
           "name": "zach's film",
           "default": false,
           "free": true,
@@ -216,13 +216,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2015_SJ_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2015_SJ_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -235,7 +235,7 @@
       "id": 7,
       "dummysource": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1",
       "title": "GREEK YOGURT",
-      "director": "Nandan Rao",
+      "director": "Tor Ånestad & Nick Boissonneault",
       "year": 2016,
       "duration": 30,
       "color": "Color",
@@ -249,13 +249,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2016_GY_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2016_GY_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -282,13 +282,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2017_BTMFJ_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/ig6gxrhfs5aaasz/BTMFJ_FULL.mp4?raw=1"
         },
-        "1": {
+        "2017_BTMFJ_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
@@ -315,13 +315,13 @@
         "placeholder": "There are currently no extra features available."
       },
       "sources": {
-        "0": {
+        "2019_WM_FF": {
           "name": "full film",
           "default": false,
           "free": false,
           "uri": "https://www.dropbox.com/s/yms6pxmx2cc4dt6/TEST_VID.mp4?raw=1"
         },
-        "1": {
+        "2019_WM_TR": {
           "name": "trailer",
           "default": true,
           "free": true,
