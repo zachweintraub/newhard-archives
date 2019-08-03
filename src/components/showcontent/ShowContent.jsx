@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import MyPlayer from '../myplayer/MyPlayer';
 import { Link } from 'react-router-dom';
 import ShowContentNav from '../showcontentnav/ShowContentNav';
+import CornerNav from '../cornernav/CornerNav';
 import './ShowContent.css';
 import { AppContext } from '../app/App';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
@@ -24,6 +25,7 @@ const ShowContent = (props) => {
 
   return(
     <React.Fragment>
+      <CornerNav/>
       {timelineNodes[prevIndex] && <Link to={`/cinema/${prevIndex}`} className='icon-link'><IoIosArrowBack/></Link>}
       <p className='show-content-title'>{thisContent.title}</p>
       {timelineNodes[nextIndex] && <Link to={`/cinema/${nextIndex}`} className='icon-link'><IoIosArrowForward/></Link>}

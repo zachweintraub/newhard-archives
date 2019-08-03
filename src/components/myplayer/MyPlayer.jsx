@@ -34,7 +34,7 @@ const MyPlayer = (props) => {
       >
         <BigPlayButton className='big-play-button-hide'/>
       </Player>
-      <p>Click to view: {Object.keys(sources).map(key => {
+      <p className='alt-sources'>Click to view: {Object.keys(sources).map(key => {
         if(key !== source) {
           return (
             <span
