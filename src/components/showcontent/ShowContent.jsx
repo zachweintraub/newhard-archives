@@ -3,6 +3,7 @@ import MyPlayer from '../myplayer/MyPlayer';
 import { Link } from 'react-router-dom';
 import ShowContentNav from '../showcontentnav/ShowContentNav';
 import CornerNav from '../cornernav/CornerNav';
+import ContentDetails from '../contentdetails/ContentDetails';
 import './ShowContent.css';
 import { AppContext } from '../app/App';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
@@ -21,7 +22,7 @@ const ShowContent = (props) => {
   const nextIndex = parseInt(props.match.params.id) + 1;
 
   //determines which "tab" the user is viewing
-  const [currentTab, setCurrentTab] = useState('movie');
+  const [currentTab, setCurrentTab] = useState('details');
 
   return(
     <React.Fragment>
@@ -29,13 +30,14 @@ const ShowContent = (props) => {
       {timelineNodes[prevIndex] && <Link to={`/cinema/${prevIndex}`} className='icon-link'><IoIosArrowBack/></Link>}
       <p className='show-content-title'>{thisContent.title}</p>
       {timelineNodes[nextIndex] && <Link to={`/cinema/${nextIndex}`} className='icon-link'><IoIosArrowForward/></Link>}
+      <MyPlayer content={thisContent}/>
       <ShowContentNav
         onClick={(tab) => setCurrentTab(tab)}
         currentTab={currentTab}
       />
       {
-        currentTab === 'movie' &&
-        <MyPlayer content={thisContent}/>
+        currentTab === 'details' &&
+        <ContentDetails content={thisContent}/>
       }
       {
         currentTab === 'words' &&
@@ -47,7 +49,6 @@ const ShowContent = (props) => {
           return(<p key={extra}>{extra}</p>);
         })
       }
-      
     </React.Fragment>
   );
 }

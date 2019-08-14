@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Player, BigPlayButton } from 'video-react';
 import '../../../node_modules/video-react/dist/video-react.css';
 import '../myplayer/MyPlayer.css';
@@ -20,6 +20,14 @@ const MyPlayer = (props) => {
   
   //state determines which source is passed to player
   const [source, setSource] = useState(defaultSource());
+
+  // useEffect(() => {
+  //   const subscription = sources.subscribe();
+  //   return () => {
+  //     subscription.unsubscribe();
+  //   }
+  // });
+
   if(sources[source]) {
     return(
       <div className='player-wrapper'>

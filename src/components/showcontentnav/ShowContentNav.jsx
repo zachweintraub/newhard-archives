@@ -3,13 +3,13 @@ import './ShowContentNav.css';
 
 const ShowContentNav = (props) => {
 
-  let movieClass;
+  let detailsClass;
   let wordsClass;
   let extrasClass;
 
   switch(props.currentTab) {
-    case 'movie':
-      movieClass = 'current';
+    case 'details':
+      detailsClass = 'current';
       break;
     case 'words':
       wordsClass = 'current';
@@ -24,9 +24,9 @@ const ShowContentNav = (props) => {
   return(
     <div className='content-nav-tabs'>
       <div className='content-nav-tab'>
-        <p className={['content-nav-button', movieClass].join(' ')}
-          onClick={() => props.onClick('movie')}
-        >MOVIE</p>
+        <p className={['content-nav-button', detailsClass].join(' ')}
+          onClick={() => props.onClick('details')}
+        >DETAILS</p>
       </div>
       <div className='content-nav-tab'>
         <p className={['content-nav-button', wordsClass].join(' ')}

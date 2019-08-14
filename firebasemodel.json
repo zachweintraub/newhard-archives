@@ -15,7 +15,12 @@
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
-        "placeholder": "There are currently no extra features available."
+        "2010_BS_OUTLINE": {
+          "type": "pdf",
+          "name": "Original Production Outline",
+          "description": "BUMMER SUMMER was shot from a detailed outline without scripted dialogue.",
+          "uri": ""
+        }
       },
       "sources": {
         "2010_BS_FF": {
@@ -81,7 +86,12 @@
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
-        "placeholder": "There are currently no extra features available."
+        "2012_TISFC_OUTLINE": {
+          "type": "pdf",
+          "name": "Original Production Outline",
+          "description": "THE INTERNATIONAL SIGN FOR CHOKING was shot from a detailed outline without scripted dialogue.",
+          "uri": ""
+        }
       },
       "sources": {
         "2012_TISFC_FF": {
@@ -147,7 +157,12 @@
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
-        "placeholder": "There are currently no extra features available."
+        "2013_YMMFSY_OUTLINE": {
+          "type": "pdf",
+          "name": "Original Production Outline",
+          "description": "YOU MAKE ME FEEL SO YOUNG was shot from a detailed outline without scripted dialogue.",
+          "uri": ""
+        }
       },
       "sources": {
         "2013_YMMFSY_FF": {
@@ -213,7 +228,18 @@
       },
       "words": "This is a brief essay about the making of this film.",
       "extras": {
-        "placeholder": "There are currently no extra features available."
+        "2015_SJ_OUTLINE": {
+          "type": "pdf",
+          "name": "Original Production Outline",
+          "description": "SLACKJAW was shot from a detailed outline without scripted dialogue.",
+          "uri": ""
+        },
+        "2015_SJ_OG_OUTLINE": {
+          "type": "pdf",
+          "name": "Initial Abandoned Outline",
+          "description": "SLACKJAW was shot from a detailed outline without scripted dialogue.",
+          "uri": ""
+        }
       },
       "sources": {
         "2015_SJ_FF": {
